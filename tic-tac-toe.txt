@@ -1,0 +1,40 @@
+// Steps followed for the Project - Tix-Tac-toe
+-----------------------------------------------
+1. Setup React App
+2. Create Componenets
+3. Setup the Store
+4. Start the Gaming Logic
+
+Game Features
+-------------
+pass and play
+2 player Game
+player - X and Player - O
+both players are playing on same computer
+At the end one player wins or draw
+
+Componenets
+-----------
+
+Board
+  Square
+   Cross
+   Zero
+
+
+Store
+ ---------
+ Reducer
+ { 
+Board
+  Initial : [null, null, null, null,null,null,null,null,null],
+Player:{ 
+  P1 : X,
+  P2 : O,
+  Turn : P1,
+  },
+Result:{ 
+  Win: null,
+  draw: false
+  }
+ }
